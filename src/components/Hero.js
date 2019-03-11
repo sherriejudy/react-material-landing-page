@@ -1,28 +1,28 @@
-import React from 'react';
-import meadow from '../img/meadow.jpg';
+import React from "react";
+import meadow from "../img/meadow.jpg";
 
 const Hero = () => {
   return (
     <section
       id="hero"
       className="blue lighten-4"
-      style={{ backgroundImage: 'url(' + meadow + ')'}}
+      style={{ backgroundImage: "url(" + meadow + ")" }}
     >
       <div className="container valign-wrapper jc-center">
         <div className="valign center-align white-text">
-          <p className="flowtext hide-on-small-only">We give your business an internet presence</p>
-          <h3>
-            Develop, Deploy, Done
-          </h3>
+          <p className="flowtext hide-on-small-only">
+            We help your business book appointments
+          </p>
+          <h3>Appointment Booking Application</h3>
 
           <p className="big">
-            We build your website using cutting edge frameworks
-            <br/>
-            entirely customized and made to order
+            Created by:
+            <br />
+            Joseph, Tahreem, Saumil, and Judy
           </p>
 
-          <a className="btn waves-light waves-effect m-r-16">Features</a>
-          <a className="btn waves-light waves-effect">Portfolio</a>
+          <a className="btn waves-light waves-effect m-r-16">Log In</a>
+          <a className="btn waves-light waves-effect">Sign Up</a>
         </div>
       </div>
     </section>

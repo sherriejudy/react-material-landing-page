@@ -1,28 +1,34 @@
-import React from 'react';
+import React from "react";
 
 const Navbar = () => {
   return (
     <nav className="teal lighten-1">
       <div className="nav-wrapper">
-        <a href="" className="brand-logo left">Logo</a>
-        <a href="#" data-activates="mobile-demo" className="button-collapse right">
+        <a href="" className="brand-logo left">
+          Project 3
+        </a>
+        <a
+          href="#"
+          data-activates="mobile-demo"
+          className="button-collapse right"
+        >
           <i className="material-icons">menu</i>
         </a>
         <ul id="mobile-demo" className="right hide-on-med-and-down">
           <li>
-            <a href="">Home</a>
+            <a href="">About Us</a>
           </li>
           <li>
-            <a href="">Services</a>
+            <a href="">Appointment Booking App</a>
           </li>
           <li>
             <a href="">Who we are</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a href="">Login</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="">Create Account</a>
           </li>
         </ul>
       </div>
